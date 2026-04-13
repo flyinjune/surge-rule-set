@@ -1,0 +1,37 @@
+# === OpenAI / ChatGPT ===
+
+# 核心域名
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,ai.com
+
+# API / 内容
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,cdn.oaistatic.com
+
+# 登录 / 身份验证
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,auth0usercontent.com
+
+# 验证码 / 风控
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,hcaptcha.com
+
+# CDN
+DOMAIN-SUFFIX,azureedge.net
+
+# 语音 / 实时（可选但推荐）
+DOMAIN-SUFFIX,livekit.io
+DOMAIN-SUFFIX,openai.fm
+
+# 数据分析（部分功能依赖）
+DOMAIN-SUFFIX,segment.io
+
+# 兜底（防新增域名）
+DOMAIN-KEYWORD,openai
+
+# 新增（更稳）
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-SUFFIX,identrust.com

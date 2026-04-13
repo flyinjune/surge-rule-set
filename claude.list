@@ -1,0 +1,23 @@
+# === Claude / Anthropic ===
+
+# 核心
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+# 内容 / 静态资源
+DOMAIN-SUFFIX,anthropicusercontent.com
+
+# API / 后端
+DOMAIN-SUFFIX,api.anthropic.com
+
+# CDN（部分请求）
+DOMAIN-SUFFIX,cloudflare.com
+
+# 兜底
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+
+# 新增（增强稳定）
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,segment.io
