@@ -1,0 +1,18 @@
+# Dropbox 核心
+DOMAIN-SUFFIX,dropbox.com
+
+# 文件下载 / 直链（非常关键）
+DOMAIN-SUFFIX,dropboxusercontent.com
+
+# API / 客户端
+DOMAIN-SUFFIX,dropboxapi.com
+
+# 登录 / 静态资源
+DOMAIN-SUFFIX,dropboxstatic.com
+
+# CDN / 辅助
+DOMAIN-SUFFIX,dropbox-dns.com
+DOMAIN-SUFFIX,dropboxbusiness.com
+
+# 可选（部分环境用）
+DOMAIN-SUFFIX,db.tt
