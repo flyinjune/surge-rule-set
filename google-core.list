@@ -1,0 +1,16 @@
+# === Google Core Services ===
+
+# 核心域名（登录 / API / 基础服务）
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+
+# 登录系统（强烈建议单独列出）
+DOMAIN-SUFFIX,accounts.google.com
+
+# Firebase / 存储
+DOMAIN-SUFFIX,firebasestorage.googleapis.com
+
+# 兜底（防新域名）
+DOMAIN-KEYWORD,google

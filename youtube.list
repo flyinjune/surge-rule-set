@@ -1,0 +1,17 @@
+# === YouTube / Media ===
+
+# 主站
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+
+# 视频流（最关键）
+DOMAIN-SUFFIX,googlevideo.com
+
+# 图片 / UI
+DOMAIN-SUFFIX,ytimg.com
+
+# YouTube API（播放相关）
+DOMAIN-SUFFIX,youtubei.googleapis.com
+
+# 可选（部分嵌入内容）
+DOMAIN-SUFFIX,ytimg.l.google.com
