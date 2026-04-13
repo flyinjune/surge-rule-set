@@ -1,27 +1,12 @@
-# === Google AI / Gemini ===
+# === Gemini / Google AI ===
 
-# 核心 Google
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,googleusercontent.com
-
-# Gemini / Bard
-DOMAIN-SUFFIX,bard.google.com
+# Gemini / Bard 主站
 DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
 
-# 登录
-DOMAIN-SUFFIX,accounts.google.com
-
-# API
+# Gemini API（部分请求）
 DOMAIN-SUFFIX,aiplatform.googleapis.com
 
-# Firebase / AI相关
-DOMAIN-SUFFIX,firebasestorage.googleapis.com
-
-# 兜底
-DOMAIN-KEYWORD,google
-
-# 新增（提升完整性）
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,ggpht.com
+# AI 相关资源（部分功能）
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,bard
