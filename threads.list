@@ -1,0 +1,16 @@
+# === Threads (Meta) ===
+
+# 主站
+DOMAIN-SUFFIX,threads.net
+
+# API / 核心服务
+DOMAIN-SUFFIX,threads.com
+
+# CDN / 图片 / 视频（依赖 Instagram）
+DOMAIN-SUFFIX,cdninstagram.com
+
+# 登录 / 账户（共享 Instagram）
+DOMAIN-SUFFIX,instagram.com
+
+# 兜底
+DOMAIN-KEYWORD,threads

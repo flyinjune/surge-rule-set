@@ -1,0 +1,24 @@
+# === Z-Library ===
+
+# 主域 / 镜像
+DOMAIN-SUFFIX,z-lib.ai
+DOMAIN-SUFFIX,z-lib.id
+DOMAIN-SUFFIX,z-lib.gs
+
+# 官方入口 / 跳转
+DOMAIN-SUFFIX,singlelogin.se
+
+# 镜像站
+DOMAIN-SUFFIX,z-library.sk
+DOMAIN-SUFFIX,zlibrary-asia.se
+DOMAIN-SUFFIX,zlibrary-africa.se
+DOMAIN-SUFFIX,zlibrary-cn.se
+DOMAIN-SUFFIX,zlibrary-china.se
+
+# 相关入口
+DOMAIN-SUFFIX,1lib.sk
+DOMAIN-SUFFIX,go-to-library.sk
+
+# 兜底
+DOMAIN-KEYWORD,zlibrary
+DOMAIN-KEYWORD,z-lib

@@ -1,0 +1,20 @@
+# === LinkedIn ===
+
+# 主站
+DOMAIN-SUFFIX,linkedin.com
+
+# API / 核心服务
+DOMAIN-SUFFIX,licdn.com
+
+# 媒体 / 图片 / 视频
+DOMAIN-SUFFIX,media.licdn.com
+
+# 静态资源 / CDN
+DOMAIN-SUFFIX,static.licdn.com
+
+# 登录 / 跳转
+DOMAIN-SUFFIX,lnkd.in
+
+# 兜底
+DOMAIN-KEYWORD,linkedin
+DOMAIN-KEYWORD,licdn

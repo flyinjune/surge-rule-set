@@ -1,0 +1,22 @@
+# === Discord ===
+
+# 主站
+DOMAIN-SUFFIX,discord.com
+
+# Web / 登录
+DOMAIN-SUFFIX,discordapp.com
+
+# CDN / 图片 / 文件
+DOMAIN-SUFFIX,discordapp.net
+
+# 媒体 / 资源
+DOMAIN-SUFFIX,discordmedia.com
+
+# 实时通信 / 语音（关键）
+DOMAIN-SUFFIX,discord.gg
+
+# Cloudflare（部分节点依赖）
+DOMAIN-SUFFIX,cloudflare.com
+
+# 兜底
+DOMAIN-KEYWORD,discord

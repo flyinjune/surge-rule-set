@@ -1,0 +1,16 @@
+# === Reddit ===
+
+# 主站
+DOMAIN-SUFFIX,reddit.com
+
+# API / 数据接口
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redd.it
+
+# 图片 / 视频 / CDN
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,reddituploads.com
+
+# 兜底
+DOMAIN-KEYWORD,reddit
+DOMAIN-KEYWORD,redd

@@ -1,0 +1,18 @@
+# === Snapchat ===
+
+# 主站
+DOMAIN-SUFFIX,snapchat.com
+
+# API / 核心服务
+DOMAIN-SUFFIX,sc-cdn.net
+DOMAIN-SUFFIX,feelinsonice.com
+
+# 媒体 / 图片 / 视频
+DOMAIN-SUFFIX,snapkit.com
+
+# 静态资源 / CDN
+DOMAIN-SUFFIX,snapads.com
+
+# 兜底
+DOMAIN-KEYWORD,snapchat
+DOMAIN-KEYWORD,snap

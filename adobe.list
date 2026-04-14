@@ -1,0 +1,27 @@
+# === Adobe ===
+
+# 主站
+DOMAIN-SUFFIX,adobe.com
+
+# 账户 / 登录
+DOMAIN-SUFFIX,adobelogin.com
+DOMAIN-SUFFIX,adobeid-na1.services.adobe.com
+
+# Creative Cloud / 服务
+DOMAIN-SUFFIX,adobecc.com
+DOMAIN-SUFFIX,adobesc.com
+DOMAIN-SUFFIX,adobeservices.com
+DOMAIN-SUFFIX,adobe.io
+
+# 资源 / 下载 / CDN
+DOMAIN-SUFFIX,adobecqms.net
+DOMAIN-SUFFIX,adobejanus.com
+DOMAIN-SUFFIX,behance.net
+DOMAIN-SUFFIX,typekit.net
+DOMAIN-SUFFIX,fontawesome.com
+
+# 字体 / 素材 / 托管
+DOMAIN-SUFFIX,myportfolio.com
+
+# 兜底
+DOMAIN-KEYWORD,adobe

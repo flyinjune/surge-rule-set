@@ -1,0 +1,18 @@
+# === Zoom ===
+
+# 主站
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,zoom.com
+DOMAIN-SUFFIX,zoomus.cn
+
+# Web / 登录
+DOMAIN-SUFFIX,zoomgov.com
+
+# CDN / 下载 / 更新
+DOMAIN-SUFFIX,zoomcdn.net
+
+# 会议服务（关键）
+DOMAIN-SUFFIX,zoomcloud.cn
+
+# 兜底
+DOMAIN-KEYWORD,zoom

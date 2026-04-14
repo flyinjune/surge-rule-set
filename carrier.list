@@ -1,0 +1,21 @@
+# === Carrier / ISP (Refined) ===
+
+# --- T-Mobile ---
+DOMAIN-SUFFIX,t-mobile.com
+DOMAIN-SUFFIX,tmobile.com
+DOMAIN-SUFFIX,tmobile.net
+DOMAIN-SUFFIX,tmobilecdn.com
+DOMAIN-SUFFIX,metrobyt-mobile.com
+DOMAIN-KEYWORD,tmocache
+
+# --- Verizon (VZW) ---
+DOMAIN-SUFFIX,vzw.com
+DOMAIN-SUFFIX,verizon.com
+DOMAIN-SUFFIX,verizonwireless.com
+DOMAIN-SUFFIX,vzwpix.com
+
+# --- Comcast / Xfinity ---
+DOMAIN-SUFFIX,comcast.net
+DOMAIN-SUFFIX,xfinity.com
+DOMAIN-SUFFIX,xfinitymobile.com
+DOMAIN-SUFFIX,comcast.com

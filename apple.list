@@ -1,0 +1,31 @@
+# === Apple / iCloud / App Store ===
+
+# 主站
+DOMAIN-SUFFIX,apple.com
+
+# 登录 / 账户（非常关键）
+DOMAIN-SUFFIX,appleid.apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+
+# App Store / 下载
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+
+# iCloud 服务
+DOMAIN-SUFFIX,me.com
+
+# 推送 / 通知
+DOMAIN-SUFFIX,push.apple.com
+
+# CDN / 资源（非常关键）
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,cdn-apple.com
+
+# 更新 / 软件服务
+DOMAIN-SUFFIX,swcdn.apple.com
+DOMAIN-SUFFIX,swdownload.apple.com
+
+# 兜底
+DOMAIN-KEYWORD,apple
+DOMAIN-KEYWORD,icloud

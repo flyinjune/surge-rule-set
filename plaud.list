@@ -1,0 +1,7 @@
+# === PLAUD Web / Service ===
+
+# 官网 / Web App（核心）
+DOMAIN-SUFFIX,plaud.ai
+
+# 兜底（防新子域）
+DOMAIN-KEYWORD,plaud

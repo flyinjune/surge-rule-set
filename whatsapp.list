@@ -1,0 +1,16 @@
+# === WhatsApp ===
+
+# 主站 / Web
+DOMAIN-SUFFIX,whatsapp.com
+
+# API / 核心服务
+DOMAIN-SUFFIX,whatsapp.net
+
+# CDN / 媒体
+DOMAIN-SUFFIX,cdn.whatsapp.net
+
+# 短链 / 跳转
+DOMAIN-SUFFIX,wa.me
+
+# 兜底
+DOMAIN-KEYWORD,whatsapp

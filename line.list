@@ -1,0 +1,22 @@
+# === LINE ===
+
+# 主站
+DOMAIN-SUFFIX,line.me
+
+# 登录 / Web
+DOMAIN-SUFFIX,line-apps.com
+
+# API / 核心服务
+DOMAIN-SUFFIX,line.naver.jp
+
+# CDN / 资源
+DOMAIN-SUFFIX,linestatic.com
+
+# 图片 / 媒体
+DOMAIN-SUFFIX,line-scdn.net
+
+# 短链 / 跳转
+DOMAIN-SUFFIX,linecorp.com
+
+# 兜底
+DOMAIN-KEYWORD,line

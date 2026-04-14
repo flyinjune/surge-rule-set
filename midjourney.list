@@ -1,0 +1,10 @@
+# === MidJourney ===
+
+# 官网
+DOMAIN-SUFFIX,midjourney.com
+
+# CDN / 图片资源
+DOMAIN-SUFFIX,midjourneycdn.com
+
+# 兜底
+DOMAIN-KEYWORD,midjourney

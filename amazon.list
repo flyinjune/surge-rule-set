@@ -1,0 +1,31 @@
+# === Amazon ===
+
+# 主站（全球）
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,amazon.co.uk
+DOMAIN-SUFFIX,amazon.de
+DOMAIN-SUFFIX,amazon.fr
+DOMAIN-SUFFIX,amazon.it
+DOMAIN-SUFFIX,amazon.es
+
+# CDN / 静态资源（非常关键）
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,media-amazon.com
+
+# 图片 / 商品资源
+DOMAIN-SUFFIX,ssl-images-amazon.com
+DOMAIN-SUFFIX,images-amazon.com
+
+# API / 服务
+DOMAIN-SUFFIX,amazonapi.com
+
+# 登录 / 账户
+DOMAIN-SUFFIX,amazoncognito.com
+
+# 广告 / 推荐（可选）
+DOMAIN-SUFFIX,amazon-adsystem.com
+
+# 兜底
+DOMAIN-KEYWORD,amazon

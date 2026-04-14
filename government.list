@@ -1,0 +1,9 @@
+# === Government ===
+
+# 🇺🇸 美国政府
+DOMAIN-SUFFIX,state.gov
+DOMAIN-SUFFIX,state.ma.us
+DOMAIN-SUFFIX,sba.gov
+
+# 🇭🇰 香港政府
+DOMAIN-SUFFIX,police.gov.hk

@@ -1,0 +1,20 @@
+# === Pinterest ===
+
+# 主站
+DOMAIN-SUFFIX,pinterest.com
+
+# API / 核心服务
+DOMAIN-SUFFIX,pinterestapi.com
+
+# 图片 / CDN（非常关键）
+DOMAIN-SUFFIX,pinimg.com
+
+# 静态资源
+DOMAIN-SUFFIX,pinterestcdn.com
+
+# 短链 / 跳转
+DOMAIN-SUFFIX,pin.it
+
+# 兜底
+DOMAIN-KEYWORD,pinterest
+DOMAIN-KEYWORD,pinimg

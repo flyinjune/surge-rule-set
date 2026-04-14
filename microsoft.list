@@ -1,0 +1,32 @@
+# === Microsoft / Office / OneDrive ===
+
+# 主站
+DOMAIN-SUFFIX,microsoft.com
+
+# Office / Web 应用
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,office365.com
+
+# 登录系统（非常关键）
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,live.com
+
+# OneDrive / 存储（核心）
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,sharepoint.com
+
+# CDN / 静态资源
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,msftstatic.com
+
+# API / 服务
+DOMAIN-SUFFIX,graph.microsoft.com
+
+# Windows / 更新（可选）
+DOMAIN-SUFFIX,windowsupdate.com
+
+# 兜底
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,office

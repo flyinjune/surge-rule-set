@@ -1,0 +1,38 @@
+# === Entertainment (Games / Video / Music) ===
+
+# 🎮 游戏
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,nintendo.com
+DOMAIN-SUFFIX,nintendo.com.hk
+
+# 🎬 影视 / 电影数据库
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,omdbapi.com
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,thetvdb.com
+
+# 📺 流媒体 / 视频
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,cbsaavideo.com
+DOMAIN-SUFFIX,cbsivideo.com
+DOMAIN-SUFFIX,mtvnservices.com
+DOMAIN-SUFFIX,paramountplus.com
+DOMAIN-SUFFIX,peacocktv.com
+DOMAIN-SUFFIX,fwmrm.net
+DOMAIN-SUFFIX,conviva.com
+
+# 🎵 音乐
+DOMAIN-SUFFIX,tidal.com
+DOMAIN-SUFFIX,audirvana.com
+DOMAIN-KEYWORD,roon
+
+# 🎧 媒体系统
+DOMAIN-SUFFIX,roonlabs.com
+
+# 📦 PT / 资源站
+DOMAIN-SUFFIX,m-team.co
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,ptchdbits.co
+DOMAIN-KEYWORD,m-team
