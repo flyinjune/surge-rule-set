@@ -1,0 +1,16 @@
+# === Notion ===
+
+# 主站
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.site
+
+# API / 后端
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion-static.com
+
+# CDN / 资源
+DOMAIN-SUFFIX,notionusercontent.com
+DOMAIN-SUFFIX,notion-cdn.com
+
+# 关键词兜底（防漏）
+DOMAIN-KEYWORD,notion
