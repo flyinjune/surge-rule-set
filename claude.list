@@ -21,3 +21,7 @@ DOMAIN-KEYWORD,claude
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,segment.io
+
+# from openClaw
+DOMAIN-SUFFIX,assets-proxy.anthropic.com
+DOMAIN-SUFFIX,claude-code.anthropic.com
