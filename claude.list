@@ -25,3 +25,5 @@ DOMAIN-SUFFIX,segment.io
 # from openClaw
 DOMAIN-SUFFIX,assets-proxy.anthropic.com
 DOMAIN-SUFFIX,claude-code.anthropic.com
+DOMAIN-SUFFIX,desktop-assets.anthropic.com
+DOMAIN-SUFFIX,claude-desktop-assets.anthropic.com
