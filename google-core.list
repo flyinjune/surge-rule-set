@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,c.gle
 
 # 登录系统（强烈建议单独列出）
 DOMAIN-SUFFIX,accounts.google.com
