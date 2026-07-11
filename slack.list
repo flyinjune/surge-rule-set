@@ -1,0 +1,12 @@
+# Slack 核心服务
+DOMAIN-SUFFIX,slack.com
+DOMAIN-SUFFIX,slack-edge.com
+DOMAIN-SUFFIX,slack-files.com
+DOMAIN-SUFFIX,slack-imgs.com
+DOMAIN-SUFFIX,slack-msgs.com
+DOMAIN-SUFFIX,slack-redir.net
+DOMAIN-SUFFIX,slackb.com
+
+# Slack Huddle 音视频
+DOMAIN-SUFFIX,chime.aws
+IP-CIDR,99.77.128.0/18,no-resolve
