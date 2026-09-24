@@ -1,0 +1,5 @@
+# ===== Temp / 待归类 =====
+# 临时需要走代理的网址先加在这里；反复使用的再挪进正式分类 list
+DOMAIN-SUFFIX,trimble.com
+DOMAIN-SUFFIX,theflybook.com
+DOMAIN-SUFFIX,dormroommovers.com
