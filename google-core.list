@@ -1,5 +1,5 @@
 # === Google Core Services ===
-
+ 
 # 核心域名（登录 / API / 基础服务）
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
@@ -7,12 +7,25 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,c.gle
-
+ 
 # 登录系统（强烈建议单独列出）
 DOMAIN-SUFFIX,accounts.google.com
-
+ 
 # Firebase / 存储
 DOMAIN-SUFFIX,firebasestorage.googleapis.com
-
+ 
+# Google Play 下载 CDN（域名里不含 google，DOMAIN-KEYWORD 兜底覆盖不到）
+# xn--ngstr-lra8j.com = Punycode 的 "ångströ.com"，Play 商店 APK 分发 CDN
+# 实际请求形如 rr4---sn-nx5e6nl7.xn--ngstr-lra8j.com，前缀是边缘节点编号会变，DOMAIN-SUFFIX 一条全覆盖
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+# gvt1/2/3 = Google 通用下载 CDN（Play、Chrome 更新、Android 组件等）
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+# Play 商店应用图标 / 截图
+DOMAIN-SUFFIX,ggpht.com
+# Android 官方域名（android.clients.google.com 已由 google.com 覆盖，此条补 *.android.com）
+DOMAIN-SUFFIX,android.com
+ 
 # 兜底（防新域名）
 DOMAIN-KEYWORD,google
