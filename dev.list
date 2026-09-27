@@ -1,0 +1,24 @@
+# ===== Dev / 软件包 / 模型下载 =====
+# github.com / githubusercontent.com 已在 github.list；azureedge.net 已在 openai.list
+# hf-mirror.com 是国内镜像，故意不加（直连更快）
+ 
+# Homebrew
+DOMAIN-SUFFIX,brew.sh
+ 
+# GitHub 容器镜像（InsightFace 等）
+DOMAIN,ghcr.io
+ 
+# Python 软件包
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,pythonhosted.org
+ 
+# Hugging Face（Whisper 等模型）
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+ 
+# 常见的后续需求，先一并加上
+DOMAIN-SUFFIX,pytorch.org
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,docker.com
