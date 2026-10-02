@@ -1,27 +1,124 @@
-# === Adobe ===
+# ============================================================
+# Adobe / Creative Cloud / Lightroom / Firefly
+# 固定由主配置分配到美国策略，不在本文件内写策略名
+# ============================================================
 
-# 主站
+# ---------- Adobe 核心域名 ----------
 DOMAIN-SUFFIX,adobe.com
-
-# 账户 / 登录
-DOMAIN-SUFFIX,adobelogin.com
-DOMAIN-SUFFIX,adobeid-na1.services.adobe.com
-
-# Creative Cloud / 服务
-DOMAIN-SUFFIX,adobecc.com
-DOMAIN-SUFFIX,adobesc.com
-DOMAIN-SUFFIX,adobeservices.com
 DOMAIN-SUFFIX,adobe.io
-
-# 资源 / 下载 / CDN
-DOMAIN-SUFFIX,adobecqms.net
+DOMAIN-SUFFIX,adobelogin.com
+DOMAIN-SUFFIX,adobe-identity.com
+DOMAIN-SUFFIX,adobe-services.com
+DOMAIN-SUFFIX,adobeservices.com
+DOMAIN-SUFFIX,adobeoobe.com
 DOMAIN-SUFFIX,adobejanus.com
+DOMAIN-SUFFIX,adobesunbreak.com
+DOMAIN-SUFFIX,adobegenuine.com
+DOMAIN-SUFFIX,adobecc.com
+DOMAIN-SUFFIX,adobeccstatic.com
+DOMAIN-SUFFIX,adobecces.com
+DOMAIN-SUFFIX,adobesc.com
+DOMAIN-SUFFIX,adobess.com
+DOMAIN-SUFFIX,adobeexchange.com
+DOMAIN-SUFFIX,adobeprojectm.com
+DOMAIN-SUFFIX,adobecqms.net
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,adobe.ly
+
+# ---------- Creative Cloud / 素材 / 字体 ----------
+DOMAIN-SUFFIX,creativecloud.com
 DOMAIN-SUFFIX,behance.net
+DOMAIN-SUFFIX,typekit.com
 DOMAIN-SUFFIX,typekit.net
-DOMAIN-SUFFIX,fontawesome.com
-
-# 字体 / 素材 / 托管
+DOMAIN-SUFFIX,macromedia.com
+DOMAIN-SUFFIX,ftcdn.net
+DOMAIN-SUFFIX,astockcdn.net
+DOMAIN-SUFFIX,adbecrsl.com
+DOMAIN-SUFFIX,adbephotos.com
 DOMAIN-SUFFIX,myportfolio.com
+DOMAIN-SUFFIX,scene7.com
 
-# 兜底
+# ---------- Adobe 其他产品品牌 ----------
+DOMAIN-SUFFIX,acrobat.com
+DOMAIN-SUFFIX,adobeconnect.com
+DOMAIN-SUFFIX,adobesign.com
+DOMAIN-SUFFIX,echosign.com
+DOMAIN-SUFFIX,substance3d.com
+DOMAIN-SUFFIX,mixamo.com
+DOMAIN-SUFFIX,fotolia.com
+
+# ---------- Adobe 账户、登录和风控 ----------
+DOMAIN,adobe-api.arkoselabs.com
+DOMAIN,adobe-verify.arkoselabs.com
+DOMAIN,client-api.arkoselabs.com
+DOMAIN,client-verify.arkoselabs.com
+
+# 企业账户可能使用；如果你的 Adobe 是个人账户，可以暂不加入
+DOMAIN-SUFFIX,okta.com
+
+# ---------- Creative Cloud 安装、升级和部署 ----------
+DOMAIN,s3.amazonaws.com
+DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
+DOMAIN,tron-prod-customized-user-packages.s3.amazonaws.com
+DOMAIN,adobe-oobe-prod-data-store-ue1.s3.amazonaws.com
+
+DOMAIN-WILDCARD,gocart-web-prod-*.elb.amazonaws.com
+
+# Adobe 官方列出的 CloudFront 专用地址
+DOMAIN,d32a1iuc7x840y.cloudfront.net
+DOMAIN,d3gnp5fs6fu2h7.cloudfront.net
+DOMAIN,dnzuu5synxxfk.cloudfront.net
+DOMAIN,dq4p8hz4ypg6l.cloudfront.net
+
+# ---------- Firefly / Lightroom AI / 云端素材 ----------
+DOMAIN,pre-signed-firefly-prod.s3.amazonaws.com
+DOMAIN,pre-signed-firefly-prod.s3-accelerate.amazonaws.com
+
+DOMAIN-WILDCARD,sharedcloud-production*.s3.amazonaws.com
+DOMAIN-WILDCARD,sharedcloud-production*.s3-accelerate.amazonaws.com
+DOMAIN-WILDCARD,aep-cs*.s3.amazonaws.com
+DOMAIN-WILDCARD,aep-cs*.s3-accelerate.amazonaws.com
+DOMAIN-WILDCARD,translate-captions*.s3-accelerate.amazonaws.com
+
+DOMAIN,sharedcloud-production-us-east-1-data-asset.s3.amazonaws.com
+DOMAIN,sharedcloud-production-us-east-1-data-temp.s3.amazonaws.com
+DOMAIN,pf-temp-repo-ue1-prod.s3.amazonaws.com
+DOMAIN,cpf-temp-repo-ue1-prod.s3.amazonaws.com
+DOMAIN,stock-apex-images-prod-ew1.s3.eu-west-1.amazonaws.com
+
+# Adobe 云文档使用的 Azure 存储
+DOMAIN,acpprodva7apollo.blob.core.windows.net
+
+# ---------- Adobe Stock / 扩展素材存储 ----------
+DOMAIN,encoded-videos-0.s3.amazonaws.com
+DOMAIN,fotolia-prod-3dobjects.s3.amazonaws.com
+DOMAIN,fotolia-prod-audios-originals.s3.amazonaws.com
+DOMAIN,fotolia-prod-templates.s3.amazonaws.com
+DOMAIN,fotolia-prod-videos-0.s3.eu-west-1.amazonaws.com
+DOMAIN,fotolia-prod-vectors.s3.eu-west-1.amazonaws.com
+DOMAIN,thumbs-0.s3.amazonaws.com
+DOMAIN,videos-0.s3-eu-central-1.amazonaws.com
+
+# ---------- Adobe 应用使用的外部服务 ----------
+DOMAIN,firebase-settings.crashlytics.com
+DOMAIN,firebaseinstallations.googleapis.com
+DOMAIN,firebaselogging-pa.googleapis.com
+DOMAIN-WILDCARD,firebase*.googleapis.com
+DOMAIN,clientservices.googleapis.com
+
+DOMAIN,sdk.iad-01.braze.com
+DOMAIN-SUFFIX,braze-images.com
+DOMAIN,o1383653.ingest.sentry.io
+DOMAIN,bam.nr-data.net
+DOMAIN,static.thenounproject.com
+DOMAIN,speech.platform.bing.com
+
+# ---------- Adobe Analytics / 遥测 ----------
+DOMAIN-SUFFIX,demdex.net
+DOMAIN-SUFFIX,everesttech.net
+DOMAIN-SUFFIX,omniture.com
+DOMAIN-SUFFIX,omtrdc.net
+DOMAIN-SUFFIX,2o7.net
+
+# ---------- 新出现且名称中明确含 Adobe 的域名兜底 ----------
 DOMAIN-KEYWORD,adobe
