@@ -1,11 +1,37 @@
-# === Telegram DOMAIN ===
+# ============================================================
+# Telegram Domain Rule-Set
+# Updated: 2026-10-08
+# ============================================================
 
+# Telegram 核心
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,cdn-telegram.org
 
+# Telegram Web / 登录 / 下载
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegramdownload.com
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,stel.com
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
+
+# Telegram CDN / 媒体
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telesco.pe
+
+# Telegraph
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,graph.org
+
+# Telegram 官方关联服务
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,fragment.com
+DOMAIN-SUFFIX,quiz.directory
+
+# 新出现且名称明确包含 Telegram 的域名兜底
 DOMAIN-KEYWORD,telegram
